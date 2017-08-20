@@ -1,6 +1,6 @@
 {
   "name": "di-node-demo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "sample",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/knomdlo/di-node-proj#readme",
   
-    "dependencies" : {
-	"jshint": "2.9.1"
+  "scripts": {
+	"sayHi" : "node index.js"
   }
 }
