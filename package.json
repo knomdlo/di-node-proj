@@ -4,11 +4,16 @@
   "description": "sample",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "checkSyntax": "jshint forjshint.js",
+    "sayHi" : "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/knomdlo/di-node-proj.git"
+  },
+  "bin": {
+    "sayHi": "./index.js"
   },
   "keywords": [
     "di-preps-proj"
@@ -19,8 +24,7 @@
     "url": "https://github.com/knomdlo/di-node-proj/issues"
   },
   "homepage": "https://github.com/knomdlo/di-node-proj#readme",
-  
-  "scripts": {
-	"sayHi" : "node index.js"
+  "dependencies" : {
+    "jshint": "2.9.1"
   }
 }
