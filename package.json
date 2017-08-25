@@ -1,19 +1,18 @@
 {
   "name": "di-node-demo",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "sample",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "checkSyntax": "jshint forjshint.js",
-    "sayHi" : "node index.js"
+    "checkSyntax": "jshint forjshint.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/knomdlo/di-node-proj.git"
   },
   "bin": {
-    "sayHi": "./index.js"
+    "sayHello": "bin/myCustomCommand.js"
   },
   "keywords": [
     "di-preps-proj"
@@ -24,7 +23,7 @@
     "url": "https://github.com/knomdlo/di-node-proj/issues"
   },
   "homepage": "https://github.com/knomdlo/di-node-proj#readme",
-  "dependencies" : {
+  "dependencies": {
     "jshint": "2.9.1"
   }
 }
